@@ -11,6 +11,7 @@ public class BaseService {
 
 	private Response response;
 
+	
 	public Response get(String path) {
 		this.response = RestAssured.get(path);
 		return this.response;
