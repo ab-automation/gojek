@@ -12,8 +12,9 @@ public class CompareResponse {
 	private static final String file2 = "apiUrls2.properties";
 
 	@Test
-	public void testCompareApiResponse() throws IOException {
+	public void testCompareApiResponse() throws IOException { 
 		CompareApiResponse compareApiResponse = new CompareApiResponse();
 		compareApiResponse.compareApis(file1, file2);
 	}
 }
+	

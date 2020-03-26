@@ -5,7 +5,7 @@ import io.restassured.response.Response;
 
 /**
  * @author abhishekkumar65
- *
+ *This class consists of request methods.
  */
 public class BaseService {
 
